@@ -3,13 +3,13 @@
 
 #include "PCB.h"
 #include "handle.h"
-#include "Algorithms.h"
+#include "algorithms.h"
 
 using namespace std;
 
 
 #define NUMBER_OF_PROCESSES 5         // The number of processes
-#define INPUT_FILE_PATH "process.txt" // The input file path
+#define INPUT_FILE_PATH "input/process.txt" // The input file path
 
 int  quantum, context_switch; // The input variables
 vector<PCB> v;                                       // Data structure to store the information of the processes

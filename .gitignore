@@ -1,0 +1,22 @@
+# Binaries
+*.exe
+*.out
+*.app
+
+# Build folders
+build/
+bin/
+obj/
+Debug/
+Release/
+
+# Compiled objects
+*.o
+*.obj
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
